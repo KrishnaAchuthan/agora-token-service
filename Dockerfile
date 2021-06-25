@@ -8,8 +8,6 @@ RUN go get github.com/gin-gonic/gin
 # RUN go get github.com/digitallysavvy/agora-token-server
 ADD . /go/src/github.com/digitallysavvy/agora-token-server 
 
-ENV APP_ID=""
-ENV APP_CERTIFICATE=""
 
 # move to the working directory
 WORKDIR $GOPATH/src/github.com/digitallysavvy/agora-token-server
